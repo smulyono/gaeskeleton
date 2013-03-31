@@ -9,8 +9,14 @@ How to clone and create new project
     git clone git://github.com/smulyono/gaeskeleton.git <new_project_folder>
 	cd <new_project_folder>
 
-    # create new eclipse project
+    # create new eclipse project (standard, but if error occured then use alternate)
     mvn eclipse:eclipse -Dwtpversion=2.0
+    
+    # create new eclipse project (alternate)
+    mvn eclipse:eclipse
+    Run eclipse -> Import folder as project
+    mvn eclipse:clean
+    Convert to maven project
     
     # additional configuration
     Right click into the project -> convert to Spring Project
