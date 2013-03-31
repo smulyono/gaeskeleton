@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
-    <version>3-alpha</version>
+    <version>1-alpha</version>
 
     <groupId>me.smulyono</groupId>
-    <artifactId>gaespringrest</artifactId>
+    <artifactId>gaecontacts</artifactId>
 
     <properties>
     		<appengine.app.id></appengine.app.id>
@@ -125,12 +125,6 @@
             <artifactId>appengine-api-stubs</artifactId>
             <version>${appengine.target.version}</version>
             <scope>test</scope>
-        </dependency>
-        <!-- Marshall/unMarshalling Jackson -->
-        <dependency>
-        	<groupId>org.codehaus.jackson</groupId>
-        	<artifactId>jackson-mapper-asl</artifactId>
-        	<version>1.9.12</version>
         </dependency>
     </dependencies>
 
