@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>${appengine.app.id}</application>
+    <version>${appengine.app.version}</version>
+    <threadsafe>true</threadsafe>
+
+    <system-properties>
+    		<!-- 
+    			point the common logging to slf4j 
+    			based on this blog : http://d.hatena.ne.jp/tetsuya_odaka/20090731/1249031693
+    		-->
+		<property name="org.apache.commons.logging.Log"  value = "Org.Apache.Commons.Logging.Impl.Log4JLogger" /> 
+        <property name="java.util.logging.config.file" value="WEB-INF/classes/log4j.properties"/>
+    </system-properties>
+</appengine-web-app>
