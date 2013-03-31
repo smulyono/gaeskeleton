@@ -1,9 +1,21 @@
-App Engine Java Application
-Copyright (C) 2010-2012 Google Inc.
+# App Engine Java Application
 
 ## Skeleton application for use with App Engine Java and Spring MVC.
 
 Requires [Apache Maven](http://maven.apache.org) 3.0 or greater, and JDK 6+ in order to run.
+
+How to clone and create new project
+
+    git clone git://github.com/smulyono/gaeskeleton.git <new_project_folder>
+	cd <new_project_folder>
+
+    # create new eclipse project
+    mvn eclipse:eclipse -Dwtpversion=2.0
+    
+    # additional configuration
+    Right click into the project -> convert to Spring Project
+                                 -> convert to Maven Project
+                                 
 
 To build, run
 
@@ -22,3 +34,10 @@ For further information, consult the [Java App Engine](https://developers.google
 To see all the available goals for the App Engine plugin, run
 
     mvn help:describe -Dplugin=appengine
+
+
+
+Copyright (C) 2010-2012 Google Inc.
+
+Modified 3/31/2013 - Sanny M
+
