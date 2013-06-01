@@ -8,8 +8,10 @@
     		<!-- 
     			point the common logging to slf4j 
     			based on this blog : http://d.hatena.ne.jp/tetsuya_odaka/20090731/1249031693
+	
+	        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
     		-->
 		<property name="org.apache.commons.logging.Log"  value = "Org.Apache.Commons.Logging.Impl.Log4JLogger" /> 
-        <property name="java.util.logging.config.file" value="WEB-INF/classes/log4j.properties"/>
+        
     </system-properties>
 </appengine-web-app>

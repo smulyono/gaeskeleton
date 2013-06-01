@@ -15,7 +15,7 @@ public class PageController {
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String home(ModelMap model){
-		log.debug(">>> home controller <<");
+		log.debug(">>> Home controller <<");
 		return "index";
 	}
 }

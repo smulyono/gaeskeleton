@@ -6,16 +6,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link
-	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css"
+	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"
 	rel="stylesheet">
 <link
-	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css"
+	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css"
 	rel="stylesheet">
-<title>GAE Skeleton</title>
+<title>Example - GAE Skeleton</title>
 <style>
-body {
-	padding-top: 30px;
-	/* 30px to make the container go all the way to the bottom of the topbar */
+.topContainer {
+	margin-top : 50px;
 }
 </style>
 </head>
@@ -42,11 +41,11 @@ body {
 		</div>
 	</div>
 
-	<div class="container">
-		<h1>Skeleton Page</h1>
+	<div class="container topContainer">
+		<h1>Example Skeleton Page</h1>
 	</div>
 
 	<script
-		src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+		src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
