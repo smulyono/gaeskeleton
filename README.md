@@ -7,7 +7,7 @@ Requires [Apache Maven](http://maven.apache.org) 3.0 or greater, and JDK 6+ in o
 How to clone and create new project
 
     git clone git://github.com/smulyono/gaeskeleton.git <new_project_folder>
-	cd <new_project_folder>
+    cd <new_project_folder>
 
     # create new eclipse project (standard, but if error occured then use alternate)
     mvn eclipse:eclipse -Dwtpversion=2.0
@@ -41,9 +41,22 @@ To see all the available goals for the App Engine plugin, run
 
     mvn help:describe -Dplugin=appengine
 
+Appengine Version used is 1.7.6 because of problem in Mac OSx
 
+	https://code.google.com/p/googleappengine/issues/detail?id=4712
+	
+All of other libraries included
+
+	Spring 3.1.1.Release
+	Jackson Mapper 1.9.12
+	
+All of other maven plugins included
+	
+	Jetty 
+        Used with manual reloading
+ 
 
 Copyright (C) 2010-2012 Google Inc.
 
-Modified 3/31/2013 - Sanny M
+Modified 6/1/2013 - Sanny M
 
