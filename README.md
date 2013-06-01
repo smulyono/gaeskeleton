@@ -2,6 +2,9 @@
 
 ## Skeleton application for use with App Engine Java and Spring MVC.
 
+[![Build Status](https://api.travis-ci.org/smulyono/gaeskeleton.png)](https://api.travis-ci.org/smulyono/gaeskeleton)
+
+
 Requires [Apache Maven](http://maven.apache.org) 3.0 or greater, and JDK 6+ in order to run.
 
 How to clone and create new project
