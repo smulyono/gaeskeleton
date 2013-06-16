@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+<!-- to speed up the loading process -->
+  <cron>
+    <url>/wakeup</url>
+    <description>Wakeup the application -- simple hack for spring application to warmup without using the premium service (reserved instance)</description>
+    <schedule>every 2 minutes</schedule>
+  </cron>
+</cronentries>
